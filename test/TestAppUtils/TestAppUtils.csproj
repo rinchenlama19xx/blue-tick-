@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>8.0</LangVersion>
+    <RootNamespace>System.Windows</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controls\GridEx.old.cs" />
+    <Compile Remove="Controls\PanelEx.cs" />
+    <Compile Remove="Controls\StackPanelEx.old.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Controls\GridEx.old.cs" />
+    <None Include="Controls\PanelEx.cs" />
+    <None Include="Controls\StackPanelEx.old.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ModernWpf.Controls\ModernWpf.Controls.csproj" />
+    <ProjectReference Include="..\..\ModernWpf.MahApps\ModernWpf.MahApps.csproj" />
+    <ProjectReference Include="..\..\ModernWpf\ModernWpf.csproj" />
+  </ItemGroup>
+
+</Project>
