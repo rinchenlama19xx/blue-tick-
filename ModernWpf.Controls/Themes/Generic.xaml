@@ -1,0 +1,32 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/ModernWpf.Controls;component/AutoSuggestBox/AutoSuggestBox.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/ContentDialog/ContentDialog.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBar/AppBarButton.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBar/AppBarToggleButton.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBar/AppBarSeparator.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBar/AppBarElementContainer.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBar/CommandBar.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/CommandBarFlyout/CommandBarFlyout.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/DropDownButton/DropDownButton.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/Flyout/FlyoutPresenter.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/HyperlinkButton/HyperlinkButton.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/ListView/ListView.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/ListView/GridView.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/MenuFlyout/MenuFlyout.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/NavigationView/NavigationView.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/NumberBox/NumberBox.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/PersonPicture/PersonPicture.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/ProgressRing/ProgressRing.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/RatingControl/RatingControl.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/SplitButton/SplitButton.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/SplitView/SplitView.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/RadioButtons/RadioButtons.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/RadioMenuItem/RadioMenuItem.xaml" />
+        <ResourceDictionary Source="/ModernWpf.Controls;component/ToggleSwitch/ToggleSwitch.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
